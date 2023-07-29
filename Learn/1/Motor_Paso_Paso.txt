@@ -1,0 +1,82 @@
+#include <Stepper.h>                       
+#define STEPS 50                          // Declaracion de la variable del numero de pasos para dar una vuelta
+Stepper stepper(STEPS, 7, 8, 9, 10);       // Stepper nombre motor (número de pasos por vuelta, pins de control)
+                                           // Pin 7-IN1  Pin 8-IN2  Pin 9-IN3  Pin 10-IN4
+int botonP   = 3;                          // Pulsador de Pausa
+int botonizq = 4;                          // Pulsador Izquierda
+int botonder = 6;                          // Pulsador Derecha
+int estado1 = 0;                           // Se usa para leer la entrada analoga del pulsador de izquierda
+int estado2 = 0;                           // Se usa para leer la entrada analoga del pulsador de derecha
+int estado3 = 0;                           // Se usa para leer la entrada analoga del pulsador de pasusa
+int LED= 11;                               // Muestra el giro hacia la Izquierda
+int LED2=12;                               // Muestra el giro hacia la Derecha
+int LED3=13;                               // Muestra el giro hacia la Pausa
+int x=0;
+
+void setup()
+{
+  stepper.setSpeed(100);                    // Velocidad del motor en RPM
+  pinMode(botonizq, INPUT);                 // Pin del pulsador 4 como entrada
+  pinMode(botonder, INPUT);                 // Pin del pulsador 6 como entrada
+  pinMode(botonP, INPUT);                   // Pin del pulsador 3 como entrada
+  pinMode(LED, OUTPUT);                     // Pin 11 del arduino
+  pinMode(LED2,OUTPUT);                     // Pin 12 del arduino
+  pinMode(LED3,OUTPUT);                     // Pin 13 del arduino
+}
+void loop()
+{
+  estado1 = digitalRead(botonizq);
+  estado2 = digitalRead(botonder);
+  estado3 = digitalRead(botonP);
+  
+  if(estado3== LOW){
+    IZQ();
+    DERE();
+    }
+    else
+    {
+      loop();
+      }
+}
+
+//     MENUS DE FUNCIONES CON LOS PULSADORES IZQUIERDA Y DERECHA            //
+void IZQ()
+{
+  if(estado1==HIGH && estado3==LOW) 
+  {                    
+    digitalWrite(LED,HIGH);
+    stepper.step(200); 
+    delay(1000);
+    digitalWrite(LED,LOW); 
+  }
+    else                                     //El motor se detiene
+    {
+      stepper.step(0); 
+    }
+  }
+
+void DERE()
+{
+  if( estado2 == HIGH)                     
+      {
+        digitalWrite(LED2,HIGH);
+        stepper.step(-200);
+        delay(1000);
+        digitalWrite(LED2,LOW);                      
+        }
+          else                                     //El motor se detiene
+          {
+          stepper.step(0);
+            }
+}
+  
+void pausa()
+{
+digitalWrite(LED3,HIGH);
+stepper.step(0);
+delay(550);
+digitalWrite(LED3,LOW);
+loop();
+}
+
+
