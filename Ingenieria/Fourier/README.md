@@ -39,3 +39,4 @@ La serie de Fourier tiene una amplia variedad de aplicaciones en matemáticas, f
 En Python, se puede implementar la serie de Fourier utilizando librerías como NumPy y SciPy para realizar las operaciones matemáticas y gráficas necesarias.
 
 Espero que esta explicación te haya ayudado a comprender la temática de la serie de Fourier. 
+By: https://www.linkedin.com/in/leo-hernandez-datasciencee/
