@@ -35,12 +35,12 @@ Antes de utilizar este código, asegúrate de cumplir con los siguientes requisi
    pandas
    faker
    ```
-Como este cóigo fue desarrolado en google colab se debe usar tambien la biblioteca:
+Como este código fue desarrolado en [Colab](https://colab.research.google.com/?hl=es) se debe usar tambien la biblioteca:
 
    ```bash
    from google.colab import files
    ```
-Para la exportación de los datos a excel.
+Para la exportación de los datos a excel y posterior creación de la base de datos en SQL.
    
 ## Instalación
 
