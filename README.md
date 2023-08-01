@@ -1,5 +1,7 @@
 # PythonProyects
 
+![Leonardo_Diffusion_Galactic_programming_setup_1](https://github.com/leo1929/PythonProyects/assets/65140715/46e36043-2880-4f6d-9810-80962f768d2b)
+
 ¡Bienvenido al repositorio de proyectos de Python, soy R Leo Hernández C un apasionado por el mundo de la tecnología: https://www.linkedin.com/in/leo-hernandez-datasciencee/! .
 Aquí encontrarás una colección de proyectos relacionados con áreas de ciencia de datos, juegos en Python, códigos para ingeniería y aprendizajes diversos. Este repositorio ha sido creado para compartir ejemplos prácticos y aplicaciones en el mundo de Python, abarcando diferentes campos y brindando un espacio para la experimentación y el aprendizaje continuo.
 
