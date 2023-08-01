@@ -79,7 +79,7 @@ Con estos pasos, podrán seguir las instrucciones para instalar y configurar el 
 
 ## Uso
 
-El proyecto "Generador de Base de Datos Ficticia" ofrece una solución simple y práctica para generar bases de datos ficticias de clientes, productos, ventas y opiniones. Estos datos simulados son ideales para diversos propósitos, como:
+El proyecto **Generador de Base de Datos Ficticia** ofrece una solución simple y práctica para generar bases de datos ficticias. Estos datos simulados son ideales para diversos propósitos, como:
 
 1. Practicar SQL: Utiliza la base de datos ficticia como un entorno seguro para mejorar tus habilidades en consultas SQL. Explora diferentes escenarios de consulta y perfecciona tus habilidades antes de aplicarlas en una base de datos real.
 
