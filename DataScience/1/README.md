@@ -75,7 +75,7 @@ Asegúrate de que tengas Python 3.x instalado en tu sistema antes de ejecutar es
    
 Reemplaza "nombre_del_archivo.ipynb o nombre_del_archivo.py" con el nombre real del archivo principal del proyecto que deseas ejecutar.
 
-Con estos pasos, podrán seguir las instrucciones para instalar y configurar el proyecto en su máquina local. 
+Con estos pasos, podrán seguir las instrucciones para instalar y configurar el proyecto.
 
 ## Uso
 
