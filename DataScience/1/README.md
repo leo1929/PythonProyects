@@ -94,7 +94,7 @@ Sigue estos pasos para ejecutar el código y generar la base de datos ficticia:
 
 2. Asegúrate de tener Python y las bibliotecas requeridas instaladas según se describió anteriormente.
 
-3. Ejecuta el archivo Creacion_Base_de_datos_Ficticia.ipynb utilizando google colab o  creacion_base_de_datos_ficticia.py utilizando el intérprete de Python:
+3. Ejecuta el archivo Creacion_Base_de_datos_Ficticia.ipynb utilizando [Google Colab](https://colab.research.google.com/?hl=es) o creacion_base_de_datos_ficticia.py utilizando el intérprete de Python:
 
 Esto generará la base de datos ficticia y mostrará los datos en la consola.
 
@@ -104,6 +104,8 @@ Estamos trabjando en ello
 
 
 ![Leonardo_Diffusion_I_am_a_25_year_old_guy_with_long_BLONDE_col_2](https://github.com/leo1929/PythonProyects/assets/65140715/8dc74009-81de-4b7e-a52b-cee63f5b255f)
+
+![Leonardo_Diffusion_Cartel_que_dice_wait_1](https://github.com/leo1929/PythonProyects/assets/65140715/0cb03fb4-5e34-41de-9021-f7b28f4714c0)
 
 
 
