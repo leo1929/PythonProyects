@@ -62,9 +62,9 @@ Si no tienes Git instalado, puedes descargar el código fuente directamente desd
 3. Instala las dependencias requeridas. Puedes usar pip para instalar las bibliotecas necesarias:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r 
    ```
-   
+Explicadas en el apartado de [Requisitos](#requisitos).
 Asegúrate de que tengas Python 3.x instalado en tu sistema antes de ejecutar este comando.
 
 4. Ejecuta el proyecto:
