@@ -100,9 +100,11 @@ Esto generará la base de datos ficticia y mostrará los datos en la consola.
 
 ## Ejemplos
 
-Proporciona ejemplos de uso del proyecto, como consultas SQL interesantes que se pueden realizar en la base de datos ficticia.
+Estamos trabjando en ello
 
-![Leonardo_Diffusion_MINIATURA_PARA_YOUTUBE_ENTRENAMIENTO_NATACI_0](https://github.com/leo1929/PythonProyects/assets/65140715/012f944d-5d6c-4303-b3fd-aa0e8c2169c1)
+
+![Leonardo_Diffusion_I_am_a_25_year_old_guy_with_long_BLONDE_col_2](https://github.com/leo1929/PythonProyects/assets/65140715/8dc74009-81de-4b7e-a52b-cee63f5b255f)
+
 
 
 
