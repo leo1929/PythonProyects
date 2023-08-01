@@ -1,5 +1,7 @@
 # Serie de Fourier
 
+![Leonardo_Diffusion_Serie_de_fourier_0](https://github.com/leo1929/PythonProyects/assets/65140715/43abdf7d-1419-4f43-a271-6a6526043170)
+
 La serie de Fourier es una herramienta matemática muy poderosa que se utiliza para descomponer una función periódica en una combinación de funciones sinusoidales. Fue desarrollada por el matemático y físico francés Joseph Fourier en el siglo XIX.
 
 ## Conceptos básicos
